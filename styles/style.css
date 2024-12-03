@@ -1,0 +1,14 @@
+/* Fonts */
+.rubik-norm {
+  font-family: "Rubik", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.rubik-bold {
+  font-family: "Rubik", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
