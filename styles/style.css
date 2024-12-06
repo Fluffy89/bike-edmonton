@@ -1,14 +1,37 @@
-/* Fonts */
-.rubik-norm {
-  font-family: "Rubik", serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
+/*#####################*/
+/*####    Fonts    ####*/
+/*#####################*/
+@font-face {
+  font-family: "Aktiv Grotesk Trial";
+  src: url('fonts/AktivGrotesk_Trial_Bd.ttf') format('truetype');
 }
 
-.rubik-bold {
-  font-family: "Rubik", serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
+@font-face {
+  font-family: "Aktiv Grotesk Cd Trial Medium";
+  src: url('fonts/AktivGroteskCd_Trial_Md.ttf') format('truetype');
 }
+
+/*#############################*/
+/*####    Global Styles    ####*/
+/*#############################*/
+body {
+  font-family: "Aktiv Grotesk Cd Trial Medium";
+  font-size: 36px;
+}
+
+h1 {
+  font-family: "Aktiv Grotesk Trial";
+}
+
+h2 {
+  font-family: "Aktiv Grotesk Trial";
+}
+
+h3 {
+  font-family: "Aktiv Grotesk Trial";
+}
+
+
+/*########################*/
+/*####    TEMPLATE    ####*/
+/*########################*/
