@@ -19,11 +19,13 @@
                     <a href="index.html"><img src="images/BELogo.png" alt="Bike Edmonton Logo" class="BE-logo"/></a>    
                 </div>
 
-                <ul>
+                <ul class="hidden-on-mobile">
                     <li><a href="about.html">About</a></li>
                     <li><a href="parts.html">Parts</a></li>
                     <li><a href="workshop.html">Workshop</a></li>
                 </ul>
+
+                <img src="images/Hamburger.png" alt="Hamburger menu" class="hidden-on-desktop">
             </nav>
 
             <div class="workshop-hero">
@@ -33,33 +35,47 @@
 
         <!-- Section 1 - New at This -->
         <section>
-            <p>Bike Edmonton operates a fully-equipped, volunteer-run, community bike workshop.</p>
-        </section>
-
-        <!-- Section 2 - Workshop Do's 'n Dont's -->
-        <section>
-            <div>
-                <!-- Image -->
+            <div class="text-opacity-50 flex-row-center default-side-margin">
+                <p><strong>Edmonton operates a fully-equipped, volunteer-run, community bike workshop.</strong></p>
             </div>
 
             <div>
-                <div>
-                    <h1>New At This?</h1>
+                <!-- Desktop Version -->
+                <div class="flex-row hidden-on-mobile default-side-margin">
+                    <h1 class="small-section-header flex-2">New At This?</h1>
+                    <div class="flex-1"></div>
                 </div>
 
-                <div>
+                <!-- Mobile Version -->
+                <h1 class="section-header hidden-on-desktop">New At This?</h1>
+
+                <div class="default-side-margin">
                     <p>Don't know anything about bicycle repairs?</p>
                     <p>No problem!</p>
                     <p>Volunteer mechanics are on duty to assist you, from finding a bike that's right for you, adjusting your seat, or fixing a flat, right up to building an entire bike from just parts.</p>
                 </div>
             </div>
+        </section>
+
+        <!-- Section 2 - Workshop Do's 'n Dont's -->
+        <section>
+            <!-- Desktop Version -->
+            <div class="workshop-image-container hidden-on-mobile">
+                <img src="images/Workshop-lower.jpg" alt="Man in workshop working on a bicycle" class="workshop-image">
+            </div>
+
+            <!-- Mobile Version -->
+            <img src="images/Workshop-lower.jpg" alt="Man in workshop working on a bicycle" class="workshop-image hidden-on-desktop">
 
             <div>
-                <div>
-                    <h1>A Bit About the Workshop...</h1>
+                <div class="flex-row default-side-margin hidden-on-mobile">
+                    <h1 class="flex-2 small-section-header">We Will...</h1>
+                    <div class="flex-1"></div>
                 </div>
 
-                <div>
+                <h1 class="section-header hidden-on-desktop">We Will...</h1>
+
+                <div class="workshop-list default-side-margin">
                     <ul>
                         <li>You can learn how to fix your bike at either location</li>
                         <li>You can donate used bikes or parts to the workshop</li>
@@ -72,11 +88,14 @@
             </div>
 
             <div>
-                <div>
-                    <h1>We Will Not...</h1>
+                <div class="flex-row default-side-margin hidden-on-mobile">
+                    <div class="flex-1"></div>
+                    <h1 class="flex-2 text-align-right small-section-header">We Wont...</h1>
                 </div>
+
+                <h1 class="text-align-right section-header hidden-on-desktop">We Wont...</h1>
                 
-                <div>
+                <div class="workshop-list default-side-margin">
                     <ul>
                         <li>We do not allow DIY bleeding of hydraulics in our shops</li>
                         <li>Our ability to service some modern or higher-end components and suspension, is limited, if you're uncertain, please contact us to confirm</li>

@@ -19,11 +19,13 @@
                     <a href="index.html"><img src="images/BELogo.png" alt="Bike Edmonton Logo" class="BE-logo"/></a>
                 </div>
 
-                <ul>
+                <ul class="hidden-on-mobile">
                     <li><a href="about.html">About</a></li>
                     <li><a href="parts.html">Parts</a></li>
                     <li><a href="workshop.html">Workshop</a></li>
                 </ul>
+
+                <img src="images/Hamburger.png" alt="Hamburger menu" class="hidden-on-desktop">
             </nav>
 
             <div class="home-hero">
@@ -44,7 +46,7 @@
                     <p>Our vision is a city where cycling is safe, widespread, and accessible to people of all comfort levels.</p>
                 </div>
 
-                 <div class="default-bottom-margin flex-1">
+                 <div class="default-bottom-margin flex-1 hidden-on-mobile">
                     <img src="images/Goal.jpg" alt="Two people cycling down a bike path in the fall." class="goal-image"/>
                  </div>
             </div>
@@ -60,11 +62,23 @@
                 <h1>SERVICES</h1>
             </div>
 
-            <div class="default-side-margin flex-row-fill service-button-container">
-                <button class="service-button-1">PARTS</button>
+            <div class="default-side-margin flex-row-fill service-button-container hidden-on-mobile">
+                <button class="service-button-1">Parts</button>
                 <button class="service-button-2">Rent & But Bikes</button>
                 <button class="service-button-3">Workshop</button>
                 <button class="service-button-4">Knowledge</button>
+            </div>
+
+            <div class="hidden-on-desktop">
+                <div class="flex-row default-gap default-gap-bottom">
+                    <button class="flex-1 service-button-1m">Parts</button>
+                    <button class="flex-1 service-button-2m">Rent & But Bikes</button>
+                </div>
+
+                <div class="flex-row default-gap">
+                    <button class="flex-1 service-button-3m">Workshop</button>
+                    <button class="flex-1 service-button-4m">Knowledge</button>
+                </div>
             </div>
         </section>
 
@@ -74,7 +88,7 @@
                 <h1>BLOGS</h1>
             </div>
 
-            <div class="default-side-margin blog-gap flex-row">
+            <div class="default-side-margin blog-gap flex-row hidden-on-mobile">
                 <div class="flex-col blog-background flex-1">
                      <div class="blog-image-1 flex-1">
                         <p class="blog-image-text">Family Routes</p>
@@ -88,6 +102,26 @@
                </div>
 
                <div class="flex-col blog-background flex-1">
+                    <div class="blog-image-3">
+                        <p class="blog-image-text">Scenic Routes</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="default-side-margin blog-gap flex-col hidden-on-desktop">
+                <div class="blog-background flex-1">
+                     <div class="blog-image-1 flex-1">
+                        <p class="blog-image-text">Family Routes</p>
+                     </div>
+                </div>
+
+                <div class="blog-background flex-1">
+                    <div class="blog-image-2">
+                       <p class="blog-image-text">Securing Your Ride</p>
+                    </div>
+               </div>
+
+               <div class="blog-background flex-1">
                     <div class="blog-image-3">
                         <p class="blog-image-text">Scenic Routes</p>
                     </div>
